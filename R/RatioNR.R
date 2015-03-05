@@ -43,7 +43,7 @@ RatioNR <- function(data, newitem, numerator, denominator){
   #   if(unit.numerator == unit.denominator){
   #     tmp$unit <- "1"
   #   } else {  
-  tmp$unit  <- paste(unit.numerator[1], "/", unit.denominator[1], sep="")
+  tmp$unit  <- paste(unit.numerator[1], unit.denominator[1], sep="/")
   #   }
   
   # set the item to a sensible default if none is given as argument

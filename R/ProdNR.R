@@ -55,7 +55,7 @@ ProdNR <- function(data, newitem, factor1, factor2, redundant = FALSE){
   #   
   #   if(unit.factor2 == "%"){unit.factor2 <- ""}
   
-  tmp4$unit  <- paste(unit.factor2[1], unit.factor1[1], sep="")
+  tmp4$unit  <- paste(unit.factor2[1], unit.factor1[1], sep="*")
   
   # set the item to a sensible default
   if(missing(newitem)){
